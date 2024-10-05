@@ -1,4 +1,4 @@
 # TP_AySO
-Alumno:: Nicole Castiglione
+Alumno: Nicole Castiglione
 División: 318
 Turno: Noche
