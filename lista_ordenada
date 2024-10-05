@@ -1,0 +1,10 @@
+nicolecastiglione:x:1000:1000:NicoleCastiglione:/home/nicolecastiglione:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+dhcpcd:x:100:65534:DHCP Client Daemon,,,:/usr/lib/dhcpcd:/bin/false
+gdm:x:124:124:Gnome Display Manager:/var/lib/gdm3:/bin/false
+gnome-initial-setup:x:123:65534::/run/gnome-initial-setup/:/bin/false
+hplip:x:122:7:HPLIP system user,,,:/run/hplip:/bin/false
+pollinate:x:102:1::/var/cache/pollinate:/bin/false
+speech-dispatcher:x:118:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+tss:x:112:113:TPM software stack,,,:/var/lib/tpm:/bin/false
+whoopsie:x:111:111::/nonexistent:/bin/false
