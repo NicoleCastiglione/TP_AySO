@@ -1,1 +1,2 @@
 Usuario=nicolecastiglione
+No hay información del modelo de la CPU.
