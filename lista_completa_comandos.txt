@@ -1,0 +1,50 @@
+La VM se tildó en dos oportunidades y tuve que reiniciarla para seguir mi trabajo. Gracias a los commits no perdí el trabajo pero sí el historial completo de comandos, por lo que los escribí nuevamente para poder incluirlos:
+
+ssh-keygen
+cat $HOME/.ssh/id_ed25519.pub
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:NicoleCastiglione/TP_AySO.git
+cd TP_AySO
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+Git add .
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n 1 >> datos_usuario.txt
+cat datos_usuario.txt
+cat /proc/cpuinfo
+lscpu | grep "Model name"
+lscpu
+echo "No hay información del modelo de la CPU." >> datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git commit -m “feat: Añadiendo información de CPU"
+git push
+man grep
+grep -v "nologin" /etc/passwd | sort -t: -k7 | head -n 10 > lista_ordenada
+cat lista_ordenada
+git add .
+git commit -m “ADD: Listado de usuarios ordenado”
+git push
+man -k dump
+echo "Comando para realizar un dump traffic: tcpdump" > comando_dump_net
+echo "Para buscar este comando: man -k dump" >> comando_dump_net
+cat comando_dump_net
+git add .
+git commit -m “ADD: Comando para Capturar y analizar el tráfico de red”
+git push
+cat << EOF >> README.md
+Alumno: Nicole Castiglione
+División: 318
+Turno: Noche
