@@ -1,0 +1,30 @@
+sudo apt update
+clear
+sudo apt install tasksel
+sudo apt install ubuntu-desktop
+clear
+sudo reboot now
+cd repogit/
+cd TP_AySO/
+git log
+cd repogit/TP_AySO/
+cat << EOF >> README.md
+Alumno: Nicole Castiglione
+División: 318
+Turno: Noche
+EOF
+
+cat README.md 
+sed -i 's/# TP_AySOAlumno/# TP_AySO\nAlumno:/' README.md
+cat README.md 
+git add .
+git commit -m "docs: Se incluye información del alumno"
+git push
+ls
+sed -i 's/::/:/g' README.md
+cat README.md 
+git add .
+git commit -m "fix: Se corrige error de tipeo"
+git push
+cat ~/.bash_history
+history -a
